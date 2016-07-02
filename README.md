@@ -1,3 +1,12 @@
+go-yapC
+=======
+
+go-yapC is yet another pachimon Container port Golang.
+
+Original author is [@hayajo](https://github.com/hayajo/yapC).
+
+The original README.md follows.
+
 yapC
 ====
 
@@ -21,13 +30,13 @@ sudo YAPC_ROOT=/path/to/centos/rootfs yapc yum --help
 REQUIREMENTS
 ------------
 
-- Linux Kernel >= 4.3.0
-- bash
-- util-linux
-- cgourp-tools
-- libcap >= 2.23
-- overlayfs
-- iproute2
+-	Linux Kernel >= 4.3.0
+-	bash
+-	util-linux
+-	cgourp-tools
+-	libcap >= 2.23
+-	overlayfs
+-	iproute2
 
 This project bundle with the `Vagrantfile`.
 
@@ -92,5 +101,4 @@ set to `pids.max`.
 
 default: ''
 
-`set -x`.
-
+`set -x`\.
